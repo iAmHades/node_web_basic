@@ -1,0 +1,48 @@
+{
+  "name": "node-web",
+  "version": "0.1.1",
+  "description": "为了快速搭建node的服务器而制作的原型",
+  "author": "hades",
+  "homepage": "http://www.iamhades.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "generate": "node ./generate/create.js",
+    "start": "node index",
+    "standard": "standard index.js"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "bluebird": "3.3.4",
+    "body-parser": "^1.13.2",
+    "co": "4.6.0",
+    "connect-redis": "^2.3.0",
+    "cookie-parser": "^1.3.5",
+    "cron": "1.1.0",
+    "crypto-js": "3.1.5",
+    "ejs": "^2.5.6",
+    "express": "^4.13.1",
+    "express-session": "^1.11.3",
+    "georedis": "3.0.2",
+    "jsonwebtoken": "5.7.0",
+    "lodash": "^4.6.1",
+    "log4js": "^0.6.33",
+    "mocha": "^2.2.5",
+    "mongodb": "^2.0.35",
+    "node-xml": "1.0.2",
+    "power-express": "0.1.2",
+    "promise-redis": "0.0.1",
+    "querystring": "^0.2.0",
+    "redis": "^0.12.1",
+    "redlock": "^3.0.0",
+    "request": "^2.58.0",
+    "sprintf-js": "1.0.3",
+    "wechat": "2.0.2",
+    "wechat-pay": "0.2.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}
